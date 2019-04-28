@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Pokedex</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+	integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" 
+	crossorigin="anonymous">
+
+	<!-- CSS -->
+	<link rel="stylesheet "href="style.css">
+  </head>
+  <body>
+	<div id="pokemonCard">
+			<div id="searchPokemon">
+					<input id="searchBar" class="searchBar" type="text">
+					<button id="searchButton" class="titleColors" disabled>&#128270</button>
+				</div>
+		<div id="pokemonInfo">
+				<div id="generatedImage">
+
+				</div>
+				<div id="pokemonName">
+
+				</div>
+				<div id="pokemonTypeContainer">
+					<div id="pokemonType">
+
+					</div>
+				</div>
+				<div id="pokemonDescription">
+
+				</div>
+			<div id="pokemonStats">
+					<table id='navSelect'>
+						<tr>
+							<th id='selected'>Stats</th>
+							<th>Evolution</th>
+							<th>Moves</th>
+						</tr>
+					</table>
+				<div id="statsMenu">
+					<div class="statProgress" id="HP">
+							<div>
+									<p class="statName">HP 000</p>
+							</div>
+							<div class="progressBar">
+									<div class="progressBarChild"></div>
+							</div>
+					</div>
+					<div class="statProgress" id="ATK">
+							<div>
+									<p class="statName">ATK 000</p>
+							</div>
+							<div class="progressBar">
+									<div class="progressBarChild"></div>
+							</div>
+					</div>
+					<div class="statProgress" id="DEF">
+							<div>
+									<p class="statName">DEF 000</p>
+							</div>
+							<div class="progressBar">
+									<div class="progressBarChild"></div>
+							</div>
+					</div>
+					<div class="statProgress" id=" SATK">
+							<div>
+									<p class="statName">SATK 000</p>
+							</div>
+							<div class="progressBar">
+									<div class="progressBarChild"></div>
+							</div>
+					</div>
+					<div class="statProgress" id="SDEF">
+							<div>
+									<p class="statName">SDEF 000</p>
+							</div>
+							<div class="progressBar">
+									<div class="progressBarChild"></div>
+							</div>
+					</div>
+					<div class="statProgress" id="SPD">
+							<div>
+									<p class="statName">SPD 000</p>
+							</div>
+							<div class="progressBar">
+									<div class="progressBarChild"></div>
+							</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<script src="script.js"></script>
+  </body>
+</html>

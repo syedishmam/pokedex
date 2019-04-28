@@ -1,0 +1,187 @@
+/* Class CSS */
+
+
+.doesNotExistMessage {
+    text-align: center;
+}
+
+#navSelect {
+    display: none;
+    justify-content: center;
+}
+
+.noNumbersSpaces {
+    margin: 20px 8px;;
+    text-align: center;
+    color: red;
+    border-style: solid;
+}
+
+.pokemonDescription {
+    text-align: center;
+    font: bold;
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pokemonImage {
+    display: block;
+    width: 230px;
+    margin-left: -115px;
+    margin-top: -250px;
+    padding-top: 0px;
+    position: fixed; /* Sit on top of the page content */
+    top: 36%;
+    left: 50%;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.pokemonName {
+    text-align: center;
+    margin-top: 45px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 300%;
+}
+
+.pokemonOutline {
+    text-shadow: -3px -3px 0 #3D7DCA, 3px -3px 0 #3D7DCA, -3px 3px 0 #3D7DCA, 3px 3px 0 #3D7DCA;
+}
+
+.pokemonType {
+    display: flex;
+    font-size: medium;
+    justify-content: center;
+    width: 80px;
+    height: 26px;
+    padding: 20px;
+    padding-top: 8px;
+    color: black;
+}
+
+.progressBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    margin-top: 7px;
+    padding: 1px;
+    width: 240px;
+    height: 8px;
+}
+  
+.progressBarChild {
+    background-color: orange;
+    width: 0px;
+    /* Adjust with JavaScript */
+    height: 5px;
+    border-radius: 10px;
+}
+
+.searchBar {
+    width: 700px;
+    height: 26px;
+    border: none;
+    border-right: none;
+    border-radius: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 10px 0px 7px 10px;
+    padding-left: 16px;
+    background-color: whitesmoke;
+    color: gray;
+}
+
+.selected {
+    border-style: solid;
+    border-radius: 40px;
+    height: 26px;
+}
+
+.statName {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    margin-right: 10px;
+}
+
+.statProgress {
+    display: none;
+    justify-content: space-between;
+}
+
+.titleColors {
+    color: #ffcb05;
+    background-color: #3c5aa6;
+}
+
+/* ID CSS */
+
+#pokemonCard {
+    width: 23rem;
+    height: 50rem;
+    margin: 0px auto 0px auto;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    position: relative;
+    background-color: white;
+}
+
+#pokemonInfo {
+    width: 23rem;
+    height: 38rem;
+    margin: 10px auto;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    border-radius: 40px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+}
+
+#pokemonStats {
+    position: fixed;
+    bottom: 2%;
+    left: 4%;
+}
+
+#pokemonTypeContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#navSelect {
+    padding-bottom: 3%;
+}
+
+#searchButton {
+    display: flex;
+    padding: 0px 12px 0px 12px;
+    margin: 10px 10px 7px 0px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 40px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#searchPokemon {
+    display: flex;
+    padding: 5px 10px;
+}
+
+#statsMenu {
+    margin-right: 28px;
+    margin-left: 18px;
+}
+
+/*--Tag CSS--*/
+
+th {
+    padding: 7px 20px;
+}
